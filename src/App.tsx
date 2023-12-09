@@ -29,10 +29,10 @@ function App() {
             <div className="flex py-2 px-1 h-16 w-full">
               <img src="/images/avatar.jpg" 
               className="rounded-full w-15 h-15"
-                alt="avatar of user"/>
+                alt="Michele Appleton"/>
               <div className="px-5">
-                <div className="font-bold text-sm w-full">Michell Appleton</div>
-                <div className="font-light"> 28 Jun 2020</div>
+              <p className="font-bold text-sm w-full">Michell Appleton</p>
+                <p className="font-light"> 28 Jun 2020</p>
               </div>
             </div>
               <button className=" flex rounded-full light-bg w-10 h-10 items-center justify-center px-2"
@@ -43,9 +43,9 @@ function App() {
           {deskShow &&
           <div className={` hidden ${ ((window.innerWidth > 768) && deskShow)? "md:flex":""} de-gray-blue p-3 relative bottom-24 left-64  flex-row justify-around rounded-lg w-[13em] `}>
                 <span className="text-sm">SHARE</span>
-                <img className="w-5 h-5" src="/images/icon-facebook.svg" alt="facebook icon" />
-                <img className="w-5 h-5" src="/images/icon-twitter.svg" alt="twitter icon" />
-                <img className="w-5 h-5" src="/images/icon-pinterest.svg" alt="pinterest icon" />
+                <a href="https://www.facebook.com"><img className="w-5 h-5" src="/images/icon-facebook.svg" alt="facebook icon" /></a>
+                <a href="https://twitter.com"><img className="w-5 h-5" src="/images/icon-twitter.svg" alt="twitter icon" /></a>
+                <a href="https://pinterest.com"><img className="w-5 h-5" src="/images/icon-pinterest.svg" alt="pinterest icon" /></a>
               </div>
             }
           { isShare &&
