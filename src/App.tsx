@@ -3,7 +3,7 @@ import { useState } from "react"
 
 function App() {
   const [isShare, setIsShare] = useState<boolean>(false);
-  const [deskShow, setDeskShow] = useState<boolean>(true);
+  const [deskShow, setDeskShow] = useState<boolean>(false);
   const handleClick: React.MouseEventHandler<HTMLButtonElement> =() =>{
     if(window.innerWidth > 768 ){
       setDeskShow(!deskShow)
