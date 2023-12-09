@@ -4,6 +4,6 @@ Tech Used:
 - React
 - Tailwind CSS
 
-Live URL - ()
+Live URL - (https://fm-article-preview-component-31.netlify.app/)
 
-solution URL - ()
+solution URL - (https://www.frontendmentor.io/solutions/responsive-design-for-article-preview-component-NfbW3ZXyMm)
